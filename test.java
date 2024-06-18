@@ -1,9 +1,10 @@
+@ -0,0 +1,62 @@
 import javax.swing.*;
 import java.awt.*;
 
-public class Ex1404 extends JFrame {
+public class test extends JFrame {
 
-public Ex1404() {
+public test() {
 setTitle("계산기");
 setSize(300, 250);
 
@@ -58,5 +59,5 @@ setLayout(null);
 setVisible(true);
 }
 public static void main(String[] args){
-new Ex1404();
+new test();
 }
